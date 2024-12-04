@@ -1,0 +1,163 @@
+/* Styles généraux */
+body {
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../IMAGE/81okRH2kRLL._AC_UF1000\,1000_QL80_.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+     background-position: center; 
+     color: #333333;
+}
+
+/* Header */
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    background-color: rgb(98, 98, 133);
+    width: 100%;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}   
+nav ul {
+    margin: 0px;
+    padding: 0px
+} 
+.bandeau{
+     display:table;
+     margin: 0 auto;
+}
+nav a{
+    display:inline-block;
+    padding:15px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+/* Section Hero */
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Section Content */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Section Statistics */
+.stats {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.stats h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+
+table th, table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+
+color: #f1f1f1;
+}
+
+footer .logor img {
+    width: 50px; /* Définir une largeur uniforme */
+    
+  
+height: 50px; /* Définir une hauteur uniforme */
+    object-fit: contain; /* Ajuste l'image sans déformation */
+    margin: 5px; /* Ajoute un petit espacement entre les images */
+}
+footer .logoinsta img {
+
+width: 70px;
+height: 70px;
+
+}
+
+.horaires h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
